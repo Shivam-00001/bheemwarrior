@@ -148,7 +148,6 @@ body {
     }
 }
 
-/* Hero Section Styles */
 .hero-container {
     display: flex;
     justify-content: space-between;
@@ -166,7 +165,7 @@ body {
 
 .hero-container .image-1,
 .hero-container .image-3 {
-    width: 15%;
+    width: 24%;
     height: 400px;
     object-fit: cover;
     border-radius: 8px;
@@ -176,8 +175,9 @@ body {
     width: 68%;
     height: 400px;
     background-image: url('/images/poster1.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 8px;
     transition: background-image 0.5s ease;
 }
@@ -207,7 +207,6 @@ body {
         height: 200px;
     }
 }
-
 /* Disclaimer Styles */
 .Disclaimer {
     color: #fff !important;
